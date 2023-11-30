@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-    <input placeholder='Search task' value={searchString} onChange={handleFilterChange}></input>
+    <input placeholder='Search task' value={searchString} onChange={handleFilterChange}/>
     <TaskForm addTask={addTask}/>
     <TaskList currentTasks={currentTasks} tasks={tasks} searchString={searchString} deleteTask={deleteTask}/>
     </>
