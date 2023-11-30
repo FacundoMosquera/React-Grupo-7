@@ -1,0 +1,35 @@
+.pop-up-background{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.363);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up{
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.pop-up>form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.pop-up>form>.input-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.controls-form{
+    display: flex;
+    justify-content: center;
+}
